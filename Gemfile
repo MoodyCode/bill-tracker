@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'rollbar', '~> 2.7.1'
 gem 'oj', '~> 2.12.14'
-gem 'rails_12factor'
+# gem 'rails_12factor'
 gem "devise", :github => 'plataformatec/devise', :branch => 'master'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
