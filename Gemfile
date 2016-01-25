@@ -24,6 +24,8 @@ gem "devise", :github => 'plataformatec/devise', :branch => 'master'
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
+  gem 'shoulda-matchers', '~> 3.0'
+  gem 'rails-controller-testing'
 end
 
 group :development do
