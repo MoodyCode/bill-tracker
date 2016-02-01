@@ -7,3 +7,10 @@ RSpec.describe Debtee, :type => :model do
     expect(Debtee.first).to eq(debtee)
   end
 end
+
+describe Debtees do
+  it { should validate_presence_of :debtee }
+  it { should validate_presence_of :website }
+  it { should validate_presence_of :username }
+  it { should validate_presence_of :password }
+end
