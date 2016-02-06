@@ -8,7 +8,7 @@ RSpec.describe Debtee, :type => :model do
   end
 end
 
-describe Debtees do
+describe Debtee do
   it { should validate_presence_of :debtee }
   it { should validate_presence_of :website }
   it { should validate_presence_of :username }
